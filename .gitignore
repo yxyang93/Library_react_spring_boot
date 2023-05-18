@@ -1,0 +1,46 @@
+# Library_react_spring_boot .gitignore
+/.idea
+
+# frontend - React
+/2. frontend/react-library/node_modules
+/2. frontend/react-library/.pnp
+/2. frontend/react-library/.pnp.js
+/2. frontend/react-library/coverage
+/2. frontend/react-library/build
+/2. frontend/react-library/.DS_Store
+/2. frontend/react-library/.env.local
+/2. frontend/react-library/.env.development.local
+/2. frontend/react-library/.env.test.local
+/2. frontend/react-library/.env.production.local
+/2. frontend/react-library/npm-debug.log*
+/2. frontend/react-library/yarn-debug.log*
+/2. frontend/react-library/yarn-error.log*
+/2. frontend/react-library/.idea
+
+# backend - Spring Boot
+/3. backend/spring-boot-library/HELP.md
+/3. backend/spring-boot-library/target/
+!/3. backend/spring-boot-library/.mvn/wrapper/maven-wrapper.jar
+!/3. backend/spring-boot-library/**/src/main/**/target/
+!/3. backend/spring-boot-library/**/src/test/**/target/
+/3. backend/spring-boot-library/.apt_generated
+/3. backend/spring-boot-library/.classpath
+/3. backend/spring-boot-library/.factorypath
+/3. backend/spring-boot-library/.project
+/3. backend/spring-boot-library/.settings
+/3. backend/spring-boot-library/.springBeans
+/3. backend/spring-boot-library/.sts4-cache
+/3. backend/spring-boot-library/.idea
+/3. backend/spring-boot-library/*.iws
+/3. backend/spring-boot-library/*.iml
+/3. backend/spring-boot-library/*.ipr
+/3. backend/spring-boot-library/nbproject/private/
+/3. backend/spring-boot-library/nbbuild/
+/3. backend/spring-boot-library/dist/
+/3. backend/spring-boot-library/nbdist/
+/3. backend/spring-boot-library/.nb-gradle/
+/3. backend/spring-boot-library/build/
+!/3. backend/spring-boot-library/**/src/main/**/build/
+!/3. backend/spring-boot-library/**/src/test/**/build/
+/3. backend/spring-boot-library/.vscode/
+/3. backend/spring-boot-library/src/main/resources/application-local.properties
